@@ -1,0 +1,54 @@
+/*Esta es la hja de estilo o arhivo .css*/
+/*este es el diseno del body */
+body{   
+    background-color:#cccccc;
+     h1 {
+ background-color: hwb(108 0% 0% / 0.671);
+    }
+}
+
+td.Menu{
+    background-color: oklab(15.201999999999998% -0.00318 -0.00098);
+}
+
+td.Contenido{
+    background-color: #b9fff99f;
+  h1 {
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+}
+
+td.Banner{background: url(imagenes/Imagen7.JPG);}
+
+/*Lineas para quitar la viñetas y poner el interlineado a 0*/
+   .menuprincipal{
+    list-style:none;
+    padding:0px;
+    margin:0px;
+   }
+
+   /*Linea para ubicar la lista en horizontal*/
+ .menuprincipal li {
+    float: left;
+ }
+
+ /*Lineas para rear una caja para cada elemento indicamos ancho y alto de la 
+ caja, deoracion del texto y ubicacion dentro de la caja y por ultimo el color*/
+  .menuprincipal li a{
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-decoration:none;
+    text-align:center;
+    color: white;
+    line-height: 40px;
+  }
+
+  .menuprincipal li a:hover{
+       background-color: white;
+     color: #020e0b;
+
+  }
